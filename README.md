@@ -1,13 +1,13 @@
 # US-home-price-analysis
-# 🏠 US Housing Trends: 20-Year Insight
+# US Housing Trends: 20-Year Insight
 
-## 📌 Objective
+## Objective
 
 This project aims to analyze how key macroeconomic factors have influenced U.S. home prices over the past 20 years. Using publicly available datasets and SQL Server for modeling, the analysis identifies correlations and builds a regression model to explain housing price trends. Tableau was used to visualize the results in a clean, interactive dashboard.
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 All datasets were sourced from publicly available U.S. economic indicators:
 
@@ -22,7 +22,7 @@ All datasets were sourced from publicly available U.S. economic indicators:
 
 ---
 
-## 🔧 Key Steps Taken
+##  Key Steps Taken
 
 ### 1. **Database Setup and Data Loading (SQL Server)**:
 - Created 8 individual tables for each macroeconomic factor using `BULK INSERT`.
@@ -59,7 +59,7 @@ All datasets were sourced from publicly available U.S. economic indicators:
 
 ---
 
-## 📈 Summary of Findings
+##  Summary of Findings
 
 - **GDP** is the **strongest positive driver** of home prices (Correlation: 0.91).
 - **Unemployment Rate** has a **moderate negative impact** (Correlation: -0.606, Regression Beta: -17.42).
@@ -76,7 +76,7 @@ All datasets were sourced from publicly available U.S. economic indicators:
 
 ---
 
-## 🧠 Tools Used
+## Tools Used
 
 - **SQL Server 2019** – ETL, cleaning, modeling, and regression
 - **Tableau Public** – Visualization & dashboarding
@@ -84,7 +84,7 @@ All datasets were sourced from publicly available U.S. economic indicators:
 
 ---
 
-## 🏁 Next Steps
+## Next Steps
 
 - Incorporate time-series models like ARIMA or LSTM in Python for price forecasting.
 - Add regional-level analysis (state/city level HPI).
@@ -92,7 +92,7 @@ All datasets were sourced from publicly available U.S. economic indicators:
 
 ---
 
-## 👤 Author
+##  Author
 
 **Monalisa Behera**  
 📧 Email: [mbehera95@gmail.com]  
